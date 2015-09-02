@@ -1,0 +1,20 @@
+{
+  "resources": {
+    "head": [
+      {
+        "type": "script",
+        "src": "head.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "twitterUsername": {
+        "order": 1,
+        "title": "Twitter Username",
+        "type": "string",
+        "default": "@NectarNinjaDemo"
+      }
+    }
+  }
+}
