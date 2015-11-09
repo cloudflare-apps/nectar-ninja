@@ -1,6 +1,6 @@
 (function(){
   var options = INSTALL_OPTIONS;
-  var isPreview = window.Eager && window.Eager.installs && window.Eager.installs.preview && window.Eager.installs.preview.appId === 'suYZr4Vf5OIw';
+  var isPreview = INSTALL_ID == "preview";
 
   if (isPreview) {
     // Make sure NectarNinja shows
