@@ -11,7 +11,8 @@
     "properties": {
       "twitterUsername": {
         "title": "Your Twitter Username",
-        "type": "string"
+        "type": "string",
+        "placeholder": "@MyTwitterName"
       }
     }
   }
