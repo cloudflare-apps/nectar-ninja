@@ -10,9 +10,8 @@
   "options": {
     "properties": {
       "twitterUsername": {
-        "title": "Twitter Username",
-        "type": "string",
-        "default": "@NectarNinjaDemo"
+        "title": "Your Twitter Username",
+        "type": "string"
       }
     }
   }

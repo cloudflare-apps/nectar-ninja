@@ -8,7 +8,10 @@
   }
 
   if (!options.twitterUsername) {
-    return;
+    if (isPreview)
+      options.twitterUsername = '@NectarNinjaDemo';
+    else
+      return;
   }
 
   var a = document.createElement('script');
