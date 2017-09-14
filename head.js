@@ -16,6 +16,6 @@
 
   var a = document.createElement('script');
   var m = document.getElementsByTagName('script')[0];
-  a.src = 'https://nectar.ninja/api/v1/' + options.twitterUsername.replace(/^@/, '');
+  a.src = 'https://nectar.ninja/api/v1/' + options.twitterUsername.trim().replace(/^@/, '');
   m.parentNode.insertBefore(a, m);
 })();
